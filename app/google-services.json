@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "930272018564",
+    "firebase_url": "https://my-dashboard-application-4c533.firebaseio.com",
+    "project_id": "my-dashboard-application-4c533",
+    "storage_bucket": "my-dashboard-application-4c533.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930272018564:android:5aba919714027b08cf02d1",
+        "android_client_info": {
+          "package_name": "com.manish.mydashboardapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930272018564-ti1bgpti7bi1l8mk7o41g4kot9ad7kd0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manish.mydashboardapplication",
+            "certificate_hash": "2fb783bcbd275f8e6e3bfb3e2e1e2a21663258c8"
+          }
+        },
+        {
+          "client_id": "930272018564-h83h8t4n46oiu79oa8nov3go3avn2d96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkshv43EWMSHgSFTaA3RTPwrQFPKFqzbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930272018564-h83h8t4n46oiu79oa8nov3go3avn2d96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

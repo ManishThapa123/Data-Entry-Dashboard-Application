@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <Button
+        android:id="@+id/btn_newDataEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Submit New Data Entry"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:textSize="28sp"
+        android:layout_below="@+id/btn_newDataEntry"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Applications Submitted : "
+        android:textSize="20sp"
+        android:id="@+id/applicationSubmitted"
+        android:layout_below="@+id/dashboard"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:id="@+id/txt_applicationsSubmitted"
+        android:layout_toRightOf="@+id/applicationSubmitted"
+        android:layout_below="@+id/dashboard"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pending Approval : "
+        android:textSize="20sp"
+        android:id="@+id/pending_approval"
+        android:layout_below="@+id/applicationSubmitted"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:id="@+id/txt_pendingApproval"
+        android:layout_toRightOf="@+id/applicationSubmitted"
+        android:layout_below="@+id/txt_applicationsSubmitted"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Application Approved : "-->
+<!--        android:textSize="20sp"-->
+<!--        android:id="@+id/approved"-->
+<!--        android:layout_below="@+id/pending_approval"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginLeft="40dp"-->
+<!--        android:textStyle="bold"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="00"-->
+<!--        android:id="@+id/txt_approved"-->
+<!--        android:layout_toRightOf="@+id/applicationSubmitted"-->
+<!--        android:layout_below="@+id/txt_pendingApproval"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"/>-->
+
+</RelativeLayout>

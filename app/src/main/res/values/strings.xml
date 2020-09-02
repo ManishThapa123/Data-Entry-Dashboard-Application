@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Dashboard Application</string>
+    
+    <string-array name="status">
+        <item>Pending</item>
+        <item>Approved</item>
+        <item>Rejected</item>
+    </string-array>
+</resources>
